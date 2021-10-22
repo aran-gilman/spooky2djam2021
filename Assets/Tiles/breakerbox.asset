@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
+  m_Script: {fileID: 11500000, guid: e10834b0f3865814aa00c40742c5e88c, type: 3}
   m_Name: breakerbox
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: 21300000, guid: b79e9d909578e1c45aabb7e338affbc0, type: 3}
@@ -31,6 +31,7 @@ MonoBehaviour:
     e31: 0
     e32: 0
     e33: 1
-  m_InstancedGameObject: {fileID: 0}
+  m_InstancedGameObject: {fileID: 8733415019363223306, guid: 5b46e63dd16a7584db923d5c8d305f7a,
+    type: 3}
   m_Flags: 1
   m_ColliderType: 1
