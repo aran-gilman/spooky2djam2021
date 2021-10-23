@@ -24,6 +24,14 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         footstepPlayer = GetComponent<FootstepPlayer>();
     }
+
+    private void Update()
+    {
+        if (Input.GetButtonDown("Quit"))
+        {
+            Application.Quit();
+        }
+    }
     
     private void FixedUpdate()
     {
