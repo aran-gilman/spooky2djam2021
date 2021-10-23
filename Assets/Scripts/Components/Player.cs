@@ -7,6 +7,11 @@ public class Player : MonoBehaviour
     public Vector2 Forward { get; private set; }
 
     private Rigidbody2D rb;
+
+    public void WinGame()
+    {
+        Debug.Log("Victory!");
+    }
     
     private void Start()
     {
