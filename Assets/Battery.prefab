@@ -111,6 +111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96f140bb8103fd74790e2a69db6126f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectionSound: {fileID: 8300000, guid: f6f4f3e3d86995b49a9dcd2c7ed78fe4, type: 3}
   onCollect:
     m_PersistentCalls:
       m_Calls: []
