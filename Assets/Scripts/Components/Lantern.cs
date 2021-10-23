@@ -16,6 +16,7 @@ public class Lantern : MonoBehaviour
     
     private float shrinkSpeed;
     private AudioSource audioSource;
+    private SpriteRenderer spriteRenderer;
 
     public void Refresh(float percent)
     {
@@ -41,6 +42,7 @@ public class Lantern : MonoBehaviour
         transform.localScale = new Vector3(newScale, newScale, 1);
 
         float percent = newScale / maxSize;
+        spriteRenderer.color = new Color(spriteRenderer.color.r, spriteRenderer.color.g, spriteRenderer.color.b, percent);
         audioSource.enabled = percent < musicThreshold;
         if (audioSource.enabled)
         {
@@ -51,6 +53,7 @@ public class Lantern : MonoBehaviour
     private void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         shrinkSpeed = maxSize / maxDuration;
     }
     
