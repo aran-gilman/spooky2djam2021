@@ -25,7 +25,7 @@ public class LoseCutscene : Cutscene
             {
                 audioSource.Play();
             },
-            startTime = 1.5f
+            startTime = 2.0f
         });
 
         events.Add(new Event
