@@ -22,3 +22,8 @@ File: ghost_1.wav
 Author: Berklee
 License: CC-BY 3.0 (https://creativecommons.org/licenses/by/3.0/)
 Link: https://archive.org/details/Berklee44v13
+
+File: PARPG.ttf
+Author: Q_x
+License: Public Domain
+Link: https://opengameart.org/content/old-typewriter-font

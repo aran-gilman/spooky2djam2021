@@ -394,7 +394,8 @@ PrefabInstance:
       value: 'A game by zoniventris
 
 
-        Additional assets created by:
+        Additional assets and their authors:
+
 
         DoKashiteru
         - Rain and thunder SFX
@@ -407,9 +408,13 @@ PrefabInstance:
         Christian DeTamble - Low light music
 
         Berklee
-        - Game over "ghost" SFX
+        - Game over SFX
 
-        Q_x - Font'
+        Q_x - Font
+
+
+        See "CREDITS.txt" files for
+        license info and source links.'
       objectReference: {fileID: 0}
     - target: {fileID: 8343202875196001158, guid: 7f1b02b1b9c44924ca51821494bf7f92,
         type: 3}

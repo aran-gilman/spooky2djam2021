@@ -1,4 +1,0 @@
-File: PARPG.ttf
-Author: Q_x
-License: Public Domain
-Link: https://opengameart.org/content/old-typewriter-font
