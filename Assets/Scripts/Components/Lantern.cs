@@ -7,9 +7,13 @@ public class Lantern : MonoBehaviour
     public float gameOverValue = 0.05f;
     public float maxSize = 2.0f;
 
+    public float maxVolume = 1.0f;
+    public float musicThreshold = 0.5f;
+
     public UnityEvent onGameOver = new UnityEvent();
     
     private float shrinkSpeed;
+    private AudioSource audioSource;
 
     public void Refresh(float percent)
     {
@@ -28,10 +32,18 @@ public class Lantern : MonoBehaviour
             onGameOver.Invoke();
         }
         transform.localScale = new Vector3(newScale, newScale, 1);
+
+        float percent = newScale / maxSize;
+        audioSource.enabled = percent < musicThreshold;
+        if (audioSource.enabled)
+        {
+            audioSource.volume = (1 - percent / musicThreshold) * maxVolume;
+        }
     }
 
     private void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         shrinkSpeed = maxSize / maxDuration;
     }
     
