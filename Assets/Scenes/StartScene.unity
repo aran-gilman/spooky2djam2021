@@ -463,7 +463,19 @@ PrefabInstance:
     - target: {fileID: 3379714324088047093, guid: 7f1b02b1b9c44924ca51821494bf7f92,
         type: 3}
       propertyPath: m_Text
-      value: Lights Out
+      value: 'Lights
+
+        Out'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3379714324088047093, guid: 7f1b02b1b9c44924ca51821494bf7f92,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 96
+      objectReference: {fileID: 0}
+    - target: {fileID: 3379714324088047093, guid: 7f1b02b1b9c44924ca51821494bf7f92,
+        type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 96
       objectReference: {fileID: 0}
     - target: {fileID: 3379714324088047094, guid: 7f1b02b1b9c44924ca51821494bf7f92,
         type: 3}

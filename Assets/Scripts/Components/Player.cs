@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
 
     private Rigidbody2D rb;
     private FootstepPlayer footstepPlayer;
+    private Animator animator;
 
     public void WinGame()
     {
@@ -23,6 +24,7 @@ public class Player : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         footstepPlayer = GetComponent<FootstepPlayer>();
+        animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -39,5 +41,8 @@ public class Player : MonoBehaviour
         float v = Input.GetAxis("Vertical");
         rb.velocity = new Vector2(h, v).normalized * maxSpeed;
         footstepPlayer.enabled = rb.velocity.magnitude > 0.01f;
+        animator.enabled = footstepPlayer.enabled;
+        animator.SetFloat("xVelocity", h);
+        animator.SetFloat("yVelocity", v);
     }
 }
