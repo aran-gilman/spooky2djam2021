@@ -391,7 +391,13 @@ PrefabInstance:
     - target: {fileID: 7651828289130770507, guid: 7f1b02b1b9c44924ca51821494bf7f92,
         type: 3}
       propertyPath: m_Text
-      value: 'DoKashiteru - Rain and thunder SFX
+      value: 'A game by zoniventris
+
+
+        Additional assets created by:
+
+        DoKashiteru
+        - Rain and thunder SFX
 
         TinyWorlds - Footstep SFX
 
