@@ -1,9 +1,9 @@
-File(s): rain_thunder_loop.wav
+File: rain_thunder_loop.wav
 Author: DoKashiteru
 License: CC-BY 3.0 (https://creativecommons.org/licenses/by/3.0/)
 Link: https://opengameart.org/content/rain-and-thunder-loop
 
-File(s): wood01.ogg, wood02.ogg, wood03.ogg	
+File: wood01.ogg, wood02.ogg, wood03.ogg	
 Author: TinyWorlds
 License: Public Domain
 Link: https://opengameart.org/content/different-steps-on-wood-stone-leaves-gravel-and-mud
@@ -17,3 +17,8 @@ File: creepyDrumps.mp3
 Author: Christian DeTamble - http://therefactory.bplaced.net
 License: CC-BY 3.0 (https://creativecommons.org/licenses/by/3.0/)
 Link: https://opengameart.org/content/creepy-piano-sfx
+
+File: ghost_1.wav
+Author: Berklee
+License: CC-BY 3.0 (https://creativecommons.org/licenses/by/3.0/)
+Link: https://archive.org/details/Berklee44v13

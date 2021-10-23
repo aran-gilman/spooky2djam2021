@@ -16,7 +16,7 @@ public class Player : MonoBehaviour
 
     public void GameOver()
     {
-        SceneManager.LoadScene("LoseScene");
+        cutscenePlayer.GetComponent<LoseCutscene>().enabled = true;
     }
     
     private void Start()
