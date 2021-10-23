@@ -11,6 +11,8 @@ public class Lantern : MonoBehaviour
     public float musicThreshold = 0.5f;
 
     public UnityEvent onGameOver = new UnityEvent();
+
+    public bool allowGameOver = true;
     
     private float shrinkSpeed;
     private AudioSource audioSource;
@@ -27,9 +29,14 @@ public class Lantern : MonoBehaviour
         {
             newScale = maxSize;
         }
-        else if (newScale < gameOverValue)
+        else if (newScale < gameOverValue && allowGameOver)
         {
             onGameOver.Invoke();
+        }
+
+        if (newScale < 0.0f)
+        {
+            newScale = 0.0f;
         }
         transform.localScale = new Vector3(newScale, newScale, 1);
 

@@ -3,14 +3,15 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-    public float maxSpeed = 1.0f;   
+    public float maxSpeed = 1.0f;
+    public GameObject cutscenePlayer;
 
     private Rigidbody2D rb;
     private FootstepPlayer footstepPlayer;
 
     public void WinGame()
     {
-        SceneManager.LoadScene("WinScene");
+        cutscenePlayer.GetComponent<WinCutscene>().enabled = true;
     }
 
     public void GameOver()
