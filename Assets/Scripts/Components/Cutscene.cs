@@ -22,6 +22,7 @@ public class Cutscene : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         lantern = player.GetComponentInChildren<Lantern>();
         player.enabled = false;
+        player.GetComponent<Animator>().enabled = false;
         player.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         player.GetComponent<FootstepPlayer>().enabled = false;
         lantern.allowGameOver = false;
