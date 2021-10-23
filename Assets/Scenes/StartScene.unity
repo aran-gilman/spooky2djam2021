@@ -495,6 +495,44 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5665694344174402993, guid: 7f1b02b1b9c44924ca51821494bf7f92,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665694344174402993, guid: 7f1b02b1b9c44924ca51821494bf7f92,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665694344174402993, guid: 7f1b02b1b9c44924ca51821494bf7f92,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665694344174402993, guid: 7f1b02b1b9c44924ca51821494bf7f92,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665694344174402993, guid: 7f1b02b1b9c44924ca51821494bf7f92,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665694344174402993, guid: 7f1b02b1b9c44924ca51821494bf7f92,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7651828289130770507, guid: 7f1b02b1b9c44924ca51821494bf7f92,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Find the breaker box.
+
+        Collect batteries to recharge your dying
+        lantern.'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f1b02b1b9c44924ca51821494bf7f92, type: 3}
 --- !u!1 &889441554
