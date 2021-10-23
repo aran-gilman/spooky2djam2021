@@ -5254,7 +5254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a160d838ff8b4b4693ac20007e008c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_AssetsPPU: 16
+  m_AssetsPPU: 8
   m_RefResolutionX: 128
   m_RefResolutionY: 72
   m_UpscaleRT: 0
@@ -5400,7 +5400,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -889739676950766307, guid: 8695cd7b8942b7b45a3f2bc4b616e58a,
+  m_Sprite: {fileID: 1100518483029294565, guid: 44695da1dcea7764db6211327a8f8240,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5441,9 +5441,9 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.001603812, y: -0.033568382}
-  m_Size: {x: 0.87816876, y: 0.93286324}
-  m_Direction: 0
+  m_Offset: {x: -0.00059746497, y: -0.3990531}
+  m_Size: {x: 0.98575747, y: 0.7567327}
+  m_Direction: 1
 --- !u!50 &645927096
 Rigidbody2D:
   serializedVersion: 4
@@ -5999,7 +5999,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1465917530}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.257, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 645927094}
