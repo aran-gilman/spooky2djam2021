@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -10,7 +11,12 @@ public class Player : MonoBehaviour
 
     public void WinGame()
     {
-        Debug.Log("Victory!");
+        SceneManager.LoadScene("WinScene");
+    }
+
+    public void GameOver()
+    {
+        SceneManager.LoadScene("LoseScene");
     }
     
     private void Start()
